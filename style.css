@@ -1,0 +1,63 @@
+body {
+    background: white;
+
+}
+
+h1 {
+    color: #02021d;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.bir-hr {
+    border: none;
+    height: 3px;
+    width: 45px;
+    background: red;
+    margin: 0 auto 30px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #0b2533;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.card i {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #dedddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 300px;
+    }
+}
